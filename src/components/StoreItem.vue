@@ -6,7 +6,8 @@
     <v-img
       height="250"
       :src="product.data.image"
-      cover
+      aspect-ratio="1"
+      contain
     ></v-img>
 
      <v-card-subtitle>
@@ -20,7 +21,7 @@
         align="center"
         class="mx-0"
       >
-        <v-rating
+        <v-rating 
           :model-value="product.data.rating"
           color="amber"
           density="compact"
