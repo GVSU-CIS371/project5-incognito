@@ -34,7 +34,7 @@
           {{ product.data.rating }}
           </div>
       </v-row>
-
+      <br>
       <div class="text">
         ${{ product.data.price }} </div>
 
