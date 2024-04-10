@@ -17,8 +17,6 @@ import { useProductStore } from '../stores/ProductStore';
 
 const productStore = useProductStore();
 
-const groceryItems = computed(() => {
-  return productStore.products.filter(
-    product => product.data.category === 'Groceries');
-});
+const groceryItems = computed(() => 
+productStore.filterByCategory('Groceries'));
 </script>
