@@ -10,8 +10,7 @@
   </v-container>
 </template>
 
-<script setup>
-import { ref } from 'vue';
+<script setup lang="ts">
 import StoreItem from './StoreItem.vue';
 import { useProductStore } from '../stores/ProductStore';
 
