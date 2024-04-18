@@ -45,12 +45,13 @@
   </v-card>
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
 import { defineProps } from 'vue';
 import { ProductDoc } from '../types/product.ts'; 
 
-const props = defineProps<{
+type props = {
   product: ProductDoc;
-}>();
+};
+defineProps<props>();
 
 </script>

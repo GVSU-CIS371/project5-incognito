@@ -10,8 +10,8 @@
   </v-container>
 </template>
 
-<script lang="ts" setup>
-import { computed, onMounted } from 'vue';
+<script setup lang="ts" >
+import { computed } from 'vue';
 import StoreItem from './StoreItem.vue';
 import { useProductStore } from '../stores/ProductStore';
 
